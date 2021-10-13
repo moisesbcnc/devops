@@ -12,7 +12,7 @@ pipeline {
 
                 sh '''#!/bin/bash
                     ip a
-                    cd /home/ec2-user/infra && sudo git pull
+                    cd /home/ec2-user/infa && sudo git pull
                     sh  /tmp/repo-exter.sh
                     mkdir /tmp/jenkinss
                     touch /tmp/infra
